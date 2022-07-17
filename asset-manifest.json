@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/myflix-react-client/static/css/main.2da3826d.css",
+    "main.js": "/myflix-react-client/static/js/main.72a55f49.js",
+    "static/js/787.7dcf4f90.chunk.js": "/myflix-react-client/static/js/787.7dcf4f90.chunk.js",
+    "static/media/curtain.png": "/myflix-react-client/static/media/curtain.0a971707abb62a477ba6.png",
+    "index.html": "/myflix-react-client/index.html",
+    "main.2da3826d.css.map": "/myflix-react-client/static/css/main.2da3826d.css.map",
+    "main.72a55f49.js.map": "/myflix-react-client/static/js/main.72a55f49.js.map",
+    "787.7dcf4f90.chunk.js.map": "/myflix-react-client/static/js/787.7dcf4f90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2da3826d.css",
+    "static/js/main.72a55f49.js"
+  ]
+}
