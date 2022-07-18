@@ -1,5 +1,5 @@
 import config from '../../config';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import Form from 'react-bootstrap/Form';

@@ -14,7 +14,6 @@ import config from '../../config';
 
 //imports of React components & functions
 import { LoginView } from '../login-view/login-view';
-import { MovieCard } from '../movie-card/movie-card';
 import { MovieView } from '../movie-view/movie-view';
 import { DirectorView } from '../director-view/director-view';
 import { GenreView } from '../genre-view/genre-view';
@@ -31,16 +30,16 @@ import './main-view.scss';
 
 class MainView extends React.Component {
 
-  constructor() {
-    super();
-    //initial state for all of these parameters set to null; but with Redux, we don't even do that!!!
-    //this.state = {
-    //movies: [],
-    //selectedMovie: null,
-    // user: null,
-    //registered: null
-    //}
-  }
+  // constructor() {
+  //   super();
+  //   //initial state for all of these parameters set to null; but with Redux, we don't even do that!!!
+  //   //this.state = {
+  //   //movies: [],
+  //   //selectedMovie: null,
+  //   // user: null,
+  //   //registered: null
+  //   //}
+  // }
 
   //this code fetches movie data from my heroku app and puts it in the movies array
   componentDidMount() {
@@ -84,7 +83,6 @@ class MainView extends React.Component {
     axios.get(`${config.API_URL}/users/${localStorage.getItem('user')}`, {
       headers: { Authorization: `Bearer ${token}` }
     }).then(response => {
-      let user = response.data.Username;
       this.props.setUser(response.data);
       // return response.data;
     }).catch(function (error) {

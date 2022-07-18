@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
-import { connect } from 'react-redux';
+//import { connect } from 'react-redux';
 
 import './login-view.scss';
 
